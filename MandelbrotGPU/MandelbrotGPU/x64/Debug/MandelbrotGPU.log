@@ -1,0 +1,41 @@
+﻿  
+  E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\MandelbrotGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\MandelbrotGPU\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file kernel.cu...
+  
+  E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\MandelbrotGPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\MandelbrotGPU\kernel.cu" 
+E:/Master/Year2/GPU/first project/fractals-mandelbrot-claudiapop9/MandelbrotGPU/MandelbrotGPU/kernel.cu(18): warning : a __host__ function("set_pixel") redeclared with __device__, hence treated as a __host__ __device__ function
+E:/Master/Year2/GPU/first project/fractals-mandelbrot-claudiapop9/MandelbrotGPU/MandelbrotGPU/kernel.cu(98): warning : conversion from a string literal to "char *" is deprecated
+E:/Master/Year2/GPU/first project/fractals-mandelbrot-claudiapop9/MandelbrotGPU/MandelbrotGPU/kernel.cu(101): warning : conversion from a string literal to "char *" is deprecated
+E:/Master/Year2/GPU/first project/fractals-mandelbrot-claudiapop9/MandelbrotGPU/MandelbrotGPU/kernel.cu(98): warning : conversion from a string literal to "char *" is deprecated
+E:/Master/Year2/GPU/first project/fractals-mandelbrot-claudiapop9/MandelbrotGPU/MandelbrotGPU/kernel.cu(101): warning : conversion from a string literal to "char *" is deprecated
+  kernel.cu
+  util.c
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\util.c(109): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\util.c(112): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\util.c(152): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\util.c(154): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+  lodepng.c
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(773): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(1437): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(1441): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(1479): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(1513): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(1461): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(3444): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(3438): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(4247): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(4295): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(4375): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\master\year2\gpu\first project\fractals-mandelbrot-claudiapop9\mandelbrotgpu\mandelbrotgpu\lodepng.c(5315): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  MandelbrotGPU.vcxproj -> E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\x64\Debug\MandelbrotGPU.exe
+  MandelbrotGPU.vcxproj -> E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\x64\Debug\MandelbrotGPU.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "E:\Master\Year2\GPU\first project\fractals-mandelbrot-claudiapop9\MandelbrotGPU\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.

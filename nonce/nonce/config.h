@@ -1,0 +1,9 @@
+#define WIDTH 4096
+#define HEIGHT 4096
+
+#define MAX_ITERATION 2500
+
+#define THREADS_PER_BLOCK 1024
+
+#define THREADS 8
+#define REPEAT 10
