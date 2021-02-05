@@ -1,0 +1,1 @@
+start .\torr-reference-binaries-1/torr-windows-amd64.exe 127.0.0.1 5000 127.0.0.1 5001 5002 5003

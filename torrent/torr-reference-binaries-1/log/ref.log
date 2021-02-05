@@ -1,0 +1,696 @@
+2021/02/04 19:22:15 ========================================================================================================================
+2021/02/04 19:22:15 [ref-1] Registering ...
+2021/02/04 19:22:15 [ref-2] Registering ...
+2021/02/04 19:22:15 [ref-1] Sending REGISTRATION_REQUEST to hub-1
+2021/02/04 19:22:15 [hub-1] Listening on 127.0.0.1:5000
+2021/02/04 19:22:15 [ref-2] Sending REGISTRATION_REQUEST to hub-1
+2021/02/04 19:22:15 [ref-3] Registering ...
+2021/02/04 19:22:15 [ref-3] Sending REGISTRATION_REQUEST to hub-1
+2021/02/04 19:22:15 [ref-2] Received REGISTRATION_RESPONSE from ref-2
+2021/02/04 19:22:15 [ref-2] Listening on 127.0.0.1:5002
+2021/02/04 19:22:15 [ref-1] Received REGISTRATION_RESPONSE from ref-1
+2021/02/04 19:22:15 [ref-1] Listening on 127.0.0.1:5001
+2021/02/04 19:22:15 [ref-3] Received REGISTRATION_RESPONSE from ref-3
+2021/02/04 19:22:15 [ref-3] Listening on 127.0.0.1:5003
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to claudia-1
+2021/02/04 19:25:25 [hub-1] Node claudia-1 - torr: connection error StubbornRead: read tcp 127.0.0.1:53909->127.0.0.1:5004: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to claudia-2
+2021/02/04 19:25:25 [hub-1] Node claudia-2 - torr: connection error StubbornRead: read tcp 127.0.0.1:53910->127.0.0.1:5005: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to claudia-3
+2021/02/04 19:25:25 [hub-1] Node claudia-3 - torr: connection error StubbornRead: read tcp 127.0.0.1:53911->127.0.0.1:5006: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to ref-1
+2021/02/04 19:25:25 [hub-1] Received UPLOAD_RESPONSE from hub-1
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to ref-2
+2021/02/04 19:25:25 [hub-1] Received UPLOAD_RESPONSE from hub-1
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to ref-3
+2021/02/04 19:25:25 [hub-1] Received UPLOAD_RESPONSE from hub-1
+2021/02/04 19:25:25 [hub-1] Active nodes: ref-1 ref-2 ref-3
+2021/02/04 19:25:25 [hub-1] Group A: ref-1
+2021/02/04 19:25:25 [hub-1] Group B: ref-2
+2021/02/04 19:25:25 [hub-1] Group C: ref-3
+2021/02/04 19:25:25 [hub-1] ============================================================
+2021/02/04 19:25:25 [hub-1] Testing ClientUpload ...
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to ref-1
+2021/02/04 19:25:25 [hub-1] Received UPLOAD_RESPONSE from hub-1
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to ref-2
+2021/02/04 19:25:25 [hub-1] Received UPLOAD_RESPONSE from hub-1
+2021/02/04 19:25:25 [hub-1] Sending UPLOAD_REQUEST to ref-3
+2021/02/04 19:25:25 [hub-1] Received UPLOAD_RESPONSE from hub-1
+2021/02/04 19:25:25 [hub-1] ============================================================
+2021/02/04 19:25:25 [hub-1] Testing ClientReplicate ...
+2021/02/04 19:25:25 [hub-1] Sending REPLICATE_REQUEST to ref-1
+2021/02/04 19:25:25 [ref-1] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:25 [ref-1] Received SUBNET_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:25 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:27 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:27 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:27 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:27 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:27 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:27 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:27 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:27 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:29 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:29 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:29 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:29 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:29 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:29 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:29 [ref-1] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:29 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:30 [hub-1] Node ref-1 - torr: connection error StubbornRead: read tcp 127.0.0.1:53918->127.0.0.1:5001: i/o timeout
+2021/02/04 19:25:30 [hub-1] Node ref-1 - torr: unexpected response ClientReplicate: Request failed with torr: connection error StubbornRead: read tcp 127.0.0.1:53918->127.0.0.1:5001: i/o timeout
+2021/02/04 19:25:30 [hub-1] Sending REPLICATE_REQUEST to ref-2
+2021/02/04 19:25:30 [ref-2] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:30 [ref-2] Received SUBNET_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:30 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:31 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:31 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:31 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Received CHUNK_RESPONSE from ref-1
+2021/02/04 19:25:31 [ref-1] Node 127.0.0.1:53918 - torr: connection error StubbornWrite: write tcp 127.0.0.1:5001->127.0.0.1:53918: i/o timeout
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:32 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:32 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:32 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:32 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:32 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:32 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:32 [ref-2] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:34 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:34 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:34 [ref-2] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:34 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:35 [hub-1] Node ref-2 - torr: connection error StubbornRead: read tcp 127.0.0.1:53983->127.0.0.1:5002: i/o timeout
+2021/02/04 19:25:35 [hub-1] Node ref-2 - torr: unexpected response ClientReplicate: Request failed with torr: connection error StubbornRead: read tcp 127.0.0.1:53983->127.0.0.1:5002: i/o timeout
+2021/02/04 19:25:35 [hub-1] Sending REPLICATE_REQUEST to ref-3
+2021/02/04 19:25:35 [ref-3] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:35 [ref-3] Received SUBNET_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Sending CHUNK_REQUEST to claudia-2
+2021/02/04 19:25:35 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Sending CHUNK_REQUEST to ref-3
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Received CHUNK_RESPONSE from ref-2
+2021/02/04 19:25:36 [ref-2] Node 127.0.0.1:53983 - torr: connection error StubbornWrite: write tcp 127.0.0.1:5002->127.0.0.1:53983: i/o timeout
+2021/02/04 19:25:37 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:37 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:37 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:37 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:37 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:37 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:37 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:37 [ref-3] Sending CHUNK_REQUEST to claudia-3
+2021/02/04 19:25:39 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:39 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:39 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:39 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:39 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:39 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:39 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:39 [ref-3] Sending CHUNK_REQUEST to claudia-1
+2021/02/04 19:25:40 [hub-1] Node ref-3 - torr: connection error StubbornRead: read tcp 127.0.0.1:54056->127.0.0.1:5003: i/o timeout
+2021/02/04 19:25:40 [hub-1] Node ref-3 - torr: unexpected response ClientReplicate: Request failed with torr: connection error StubbornRead: read tcp 127.0.0.1:54056->127.0.0.1:5003: i/o timeout
+2021/02/04 19:25:40 [hub-1] ============================================================
+2021/02/04 19:25:40 [hub-1] Testing ClientLocalSearchWithResults ...
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Node ref-3 - torr: unexpected response ClientLocalSearchWithResults: Wrong search result count 1 != 0
+2021/02/04 19:25:40 [hub-1] ============================================================
+2021/02/04 19:25:40 [hub-1] Testing ClientLocalSearchNoResults ...
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:40 [hub-1] Received LOCAL_SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:40 [hub-1] ============================================================
+2021/02/04 19:25:40 [hub-1] Testing ClientSearch ...
+2021/02/04 19:25:40 [hub-1] Sending SEARCH_REQUEST to ref-1
+2021/02/04 19:25:40 [ref-1] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:40 [ref-1] Received SUBNET_RESPONSE from ref-1
+2021/02/04 19:25:40 [ref-1] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:40 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:40 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:40 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:40 [ref-1] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:40 [ref-1] Received LOCAL_SEARCH_RESPONSE from ref-1
+2021/02/04 19:25:40 [ref-1] Received LOCAL_SEARCH_RESPONSE from ref-1
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Sending CHUNK_REQUEST to ref-1
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Received CHUNK_RESPONSE from ref-3
+2021/02/04 19:25:41 [ref-3] Node 127.0.0.1:54056 - torr: connection error StubbornWrite: write tcp 127.0.0.1:5003->127.0.0.1:54056: i/o timeout
+2021/02/04 19:25:42 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:42 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:42 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:42 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:42 [hub-1] Node ref-3 - torr: unexpected response ClientSearch: Wrong search result count 1 != 0
+2021/02/04 19:25:42 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:42 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:42 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:42 [hub-1] Sending SEARCH_REQUEST to ref-1
+2021/02/04 19:25:42 [ref-1] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:42 [ref-1] Received SUBNET_RESPONSE from ref-1
+2021/02/04 19:25:42 [ref-1] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:42 [ref-1] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:42 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:42 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:42 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:42 [ref-1] Received LOCAL_SEARCH_RESPONSE from ref-1
+2021/02/04 19:25:42 [ref-1] Received LOCAL_SEARCH_RESPONSE from ref-1
+2021/02/04 19:25:44 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:44 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:44 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:44 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:44 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:44 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:44 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:44 [hub-1] Sending SEARCH_REQUEST to ref-1
+2021/02/04 19:25:44 [ref-1] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:44 [ref-1] Received SUBNET_RESPONSE from ref-1
+2021/02/04 19:25:44 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:44 [ref-1] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:44 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:44 [ref-1] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:44 [ref-1] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:44 [ref-1] Received LOCAL_SEARCH_RESPONSE from ref-1
+2021/02/04 19:25:44 [ref-1] Received LOCAL_SEARCH_RESPONSE from ref-1
+2021/02/04 19:25:46 [ref-1] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:46 [ref-1] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:46 [ref-1] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:46 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:46 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:46 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:46 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:46 [hub-1] Sending SEARCH_REQUEST to ref-2
+2021/02/04 19:25:46 [ref-2] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:46 [ref-2] Received SUBNET_RESPONSE from ref-2
+2021/02/04 19:25:46 [ref-2] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:46 [ref-2] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:46 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:46 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:46 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:46 [ref-2] Received LOCAL_SEARCH_RESPONSE from ref-2
+2021/02/04 19:25:46 [ref-2] Received LOCAL_SEARCH_RESPONSE from ref-2
+2021/02/04 19:25:48 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:48 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:48 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:48 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:48 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:48 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:48 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:48 [hub-1] Sending SEARCH_REQUEST to ref-2
+2021/02/04 19:25:48 [ref-2] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:48 [ref-2] Received SUBNET_RESPONSE from ref-2
+2021/02/04 19:25:48 [ref-2] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:48 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:48 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:48 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:48 [ref-2] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:48 [ref-2] Received LOCAL_SEARCH_RESPONSE from ref-2
+2021/02/04 19:25:48 [ref-2] Received LOCAL_SEARCH_RESPONSE from ref-2
+2021/02/04 19:25:50 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:50 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:50 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:50 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:50 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:50 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:50 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:50 [hub-1] Sending SEARCH_REQUEST to ref-2
+2021/02/04 19:25:50 [ref-2] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:50 [ref-2] Received SUBNET_RESPONSE from ref-2
+2021/02/04 19:25:50 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:50 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:50 [ref-2] Sending LOCAL_SEARCH_REQUEST to ref-3
+2021/02/04 19:25:50 [ref-2] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:50 [ref-2] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:50 [ref-2] Received LOCAL_SEARCH_RESPONSE from ref-2
+2021/02/04 19:25:50 [ref-2] Received LOCAL_SEARCH_RESPONSE from ref-2
+2021/02/04 19:25:52 [ref-2] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:52 [ref-2] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:52 [ref-2] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:52 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:52 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:52 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:52 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:52 [hub-1] Sending SEARCH_REQUEST to ref-3
+2021/02/04 19:25:52 [ref-3] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:52 [ref-3] Received SUBNET_RESPONSE from ref-3
+2021/02/04 19:25:52 [ref-3] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:52 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:52 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:52 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:52 [ref-3] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:52 [ref-3] Received LOCAL_SEARCH_RESPONSE from ref-3
+2021/02/04 19:25:52 [ref-3] Received LOCAL_SEARCH_RESPONSE from ref-3
+2021/02/04 19:25:54 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:54 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:54 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:54 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:54 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:54 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:54 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:54 [hub-1] Sending SEARCH_REQUEST to ref-3
+2021/02/04 19:25:54 [ref-3] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:54 [ref-3] Received SUBNET_RESPONSE from ref-3
+2021/02/04 19:25:54 [ref-3] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:54 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:54 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:54 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:54 [ref-3] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:54 [ref-3] Received LOCAL_SEARCH_RESPONSE from ref-3
+2021/02/04 19:25:54 [ref-3] Received LOCAL_SEARCH_RESPONSE from ref-3
+2021/02/04 19:25:56 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:56 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:56 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:56 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:56 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:56 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:56 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:56 [hub-1] Sending SEARCH_REQUEST to ref-3
+2021/02/04 19:25:56 [ref-3] Sending SUBNET_REQUEST to hub-1
+2021/02/04 19:25:56 [ref-3] Received SUBNET_RESPONSE from ref-3
+2021/02/04 19:25:56 [ref-3] Sending LOCAL_SEARCH_REQUEST to ref-2
+2021/02/04 19:25:56 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-3
+2021/02/04 19:25:56 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-2
+2021/02/04 19:25:56 [ref-3] Sending LOCAL_SEARCH_REQUEST to claudia-1
+2021/02/04 19:25:56 [ref-3] Sending LOCAL_SEARCH_REQUEST to ref-1
+2021/02/04 19:25:56 [ref-3] Received LOCAL_SEARCH_RESPONSE from ref-3
+2021/02/04 19:25:56 [ref-3] Received LOCAL_SEARCH_RESPONSE from ref-3
+2021/02/04 19:25:58 [ref-3] Node claudia-1 - torr: connection error SendRecv: dial tcp 127.0.0.1:5004: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:58 [ref-3] Node claudia-3 - torr: connection error SendRecv: dial tcp 127.0.0.1:5006: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:58 [ref-3] Node claudia-2 - torr: connection error SendRecv: dial tcp 127.0.0.1:5005: connectex: No connection could be made because the target machine actively refused it.
+2021/02/04 19:25:58 [hub-1] Received SEARCH_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Node claudia-1 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:58 [hub-1] Node claudia-3 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:58 [hub-1] Node claudia-2 - torr: unexpected response ClientSearch: Node request failed with NETWORK_ERROR
+2021/02/04 19:25:58 [hub-1] ============================================================
+2021/02/04 19:25:58 [hub-1] Testing ClientDownloadExisting ...
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-1
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-1
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-2
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-2
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-3
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-3
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] ============================================================
+2021/02/04 19:25:58 [hub-1] Testing ClientDownloadMissing ...
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-1
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-2
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] Sending DOWNLOAD_REQUEST to ref-3
+2021/02/04 19:25:58 [hub-1] Received DOWNLOAD_RESPONSE from hub-1
+2021/02/04 19:25:58 [hub-1] ============================================================
+2021/02/04 19:25:58 [hub-1] Node execution statistics
+2021/02/04 19:25:58 [hub-1]     ref-1 2 errors
+2021/02/04 19:25:58 [hub-1]     ref-2 2 errors
+2021/02/04 19:25:58 [hub-1]     ref-3 4 errors

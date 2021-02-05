@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'gdac-torrent'
+version ''
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.protobuf:protobuf-java:3.11.0'
+}
+
+jar {
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
